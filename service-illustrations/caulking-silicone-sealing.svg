@@ -1,0 +1,28 @@
+<svg viewBox="0 0 160 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+ <defs>
+  <linearGradient id="cs2-tube" x1="30" y1="40" x2="86" y2="60" gradientUnits="userSpaceOnUse"><stop stop-color="#33457a"/><stop offset="1" stop-color="#1a2540"/></linearGradient>
+  <radialGradient id="cs2-sh" cx="80" cy="106" r="50" gradientUnits="userSpaceOnUse"><stop stop-color="#0F3399" stop-opacity=".32"/><stop offset="1" stop-color="#0F3399" stop-opacity="0"/></radialGradient>
+ </defs>
+ <ellipse cx="80" cy="106" rx="50" ry="5" fill="url(#cs2-sh)"/>
+ <!-- corner joint surfaces -->
+ <path d="M104 56 L144 46 L144 92 L104 98 Z" fill="#141c32" stroke="rgba(90,154,255,.3)" stroke-width=".9"/>
+ <path d="M104 56 L104 98 L80 106 L80 66 Z" fill="#0e1220" stroke="rgba(90,154,255,.3)" stroke-width=".9"/>
+ <!-- silicone bead along the inner corner -->
+ <path d="M104 56 L104 98" stroke="#5a9aff" stroke-width="3.4" stroke-linecap="round" opacity=".92"/>
+ <path d="M104 56 L104 98" stroke="rgba(255,255,255,.45)" stroke-width="1" stroke-linecap="round"/>
+ <!-- ===== CAULKING GUN ===== -->
+ <!-- cradle frame: two curved rails -->
+ <path d="M22 42 Q18 52 24 62 L78 62 Q84 52 80 42" fill="none" stroke="rgba(90,154,255,.5)" stroke-width="1.6"/>
+ <!-- silicone TUBE/cartridge sitting in cradle -->
+ <rect x="24" y="40" width="54" height="20" rx="9" fill="url(#cs2-tube)" stroke="rgba(90,154,255,.5)" stroke-width="1.1"/>
+ <ellipse cx="24" cy="50" rx="3" ry="9" fill="#0e1220" stroke="rgba(90,154,255,.4)" stroke-width=".7"/>
+ <rect x="30" y="44" width="34" height="2.4" rx="1.2" fill="rgba(255,255,255,.18)"/>
+ <!-- tapered nozzle to the corner -->
+ <path d="M78 45 L104 56 L101 60 L78 55 Z" fill="#243358" stroke="rgba(90,154,255,.5)" stroke-width=".8"/>
+ <!-- plunger rod + push disc out the back -->
+ <rect x="4" y="48" width="22" height="4" rx="2" fill="#5a9aff" opacity=".75"/>
+ <circle cx="6" cy="50" r="3.4" fill="#1646D2" stroke="rgba(255,255,255,.35)" stroke-width=".7"/>
+ <!-- pistol grip + trigger under the cradle -->
+ <path d="M58 62 C66 76 60 86 52 88" stroke="#243358" stroke-width="6" fill="none" stroke-linecap="round"/>
+ <path d="M48 62 C48 74 42 76 39 82" stroke="#5a9aff" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+</svg>

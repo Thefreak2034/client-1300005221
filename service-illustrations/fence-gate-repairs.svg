@@ -1,0 +1,41 @@
+<svg viewBox="0 0 160 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs>
+            <linearGradient id="fg-pal" x1="20" y1="30" x2="20" y2="100" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#243358"/><stop offset="1" stop-color="#141c32"/></linearGradient>
+            <linearGradient id="fg-gate" x1="60" y1="34" x2="60" y2="100" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#1a2540"/><stop offset="1" stop-color="#0e1220"/></linearGradient>
+            <radialGradient id="fg-sh" cx="80" cy="104" r="52" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#0F3399" stop-opacity=".35"/><stop offset="1" stop-color="#0F3399" stop-opacity="0"/></radialGradient>
+        </defs>
+        <ellipse cx="80" cy="104" rx="54" ry="5" fill="url(#fg-sh)"/>
+        <!-- left fence palings -->
+        <g fill="url(#fg-pal)" stroke="rgba(90,154,255,.4)" stroke-width=".8">
+            <path d="M18 38 L26 38 L26 98 L18 98 Z"/>
+            <path d="M30 38 L38 38 L38 98 L30 98 Z"/>
+            <path d="M42 38 L50 38 L50 98 L42 98 Z"/>
+        </g>
+        <!-- right fence palings -->
+        <g fill="url(#fg-pal)" stroke="rgba(90,154,255,.4)" stroke-width=".8">
+            <path d="M110 38 L118 38 L118 98 L110 98 Z"/>
+            <path d="M122 38 L130 38 L130 98 L122 98 Z"/>
+            <path d="M134 38 L142 38 L142 98 L134 98 Z"/>
+        </g>
+        <!-- pointed paling tops -->
+        <g fill="#5a9aff" opacity=".5">
+            <path d="M18 38 L22 33 L26 38 Z"/><path d="M30 38 L34 33 L38 38 Z"/><path d="M42 38 L46 33 L50 38 Z"/>
+            <path d="M110 38 L114 33 L118 38 Z"/><path d="M122 38 L126 33 L130 38 Z"/><path d="M134 38 L138 33 L142 38 Z"/>
+        </g>
+        <!-- gate (between, slightly ajar) -->
+        <rect x="56" y="40" width="46" height="56" rx="2" fill="url(#fg-gate)" stroke="rgba(90,154,255,.55)" stroke-width="1.2"/>
+        <!-- gate cross-bracing -->
+        <path d="M58 52 L100 52 M58 84 L100 84 M58 84 L100 52" stroke="rgba(90,154,255,.4)" stroke-width="1.4"/>
+        <!-- hinge detail (highlighted) -->
+        <g fill="#5a9aff">
+            <rect x="100" y="46" width="8" height="7" rx="1"/>
+            <rect x="100" y="80" width="8" height="7" rx="1"/>
+        </g>
+        <circle cx="104" cy="49.5" r="1" fill="#0e1220"/>
+        <circle cx="104" cy="83.5" r="1" fill="#0e1220"/>
+        <!-- latch -->
+        <rect x="58" y="64" width="6" height="4" rx="1" fill="#F59E0B" opacity=".8"/>
+    </svg>

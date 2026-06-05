@@ -1,0 +1,35 @@
+<svg viewBox="0 0 160 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs>
+            <linearGradient id="ghr-box" x1="40" y1="55" x2="120" y2="105" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#1a2540"/><stop offset="1" stop-color="#0e1220"/></linearGradient>
+            <linearGradient id="ghr-lid" x1="40" y1="40" x2="120" y2="62" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#243358"/><stop offset="1" stop-color="#141c32"/></linearGradient>
+            <radialGradient id="ghr-sh" cx="80" cy="104" r="48" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#0F3399" stop-opacity=".45"/><stop offset="1" stop-color="#0F3399" stop-opacity="0"/></radialGradient>
+        </defs>
+        <ellipse cx="80" cy="106" rx="48" ry="6" fill="url(#ghr-sh)"/>
+        <!-- screwdriver poking up out of the box -->
+        <rect x="60" y="30" width="4" height="34" rx="1" fill="rgba(255,255,255,.22)"/>
+        <rect x="56" y="20" width="12" height="14" rx="3" fill="#1646D2" stroke="rgba(90,154,255,.6)" stroke-width=".8"/>
+        <rect x="59" y="22" width="2" height="10" fill="rgba(255,255,255,.3)"/>
+        <!-- wrench poking up -->
+        <g transform="translate(100,30) rotate(18)">
+            <rect x="-2.5" y="0" width="5" height="36" rx="1.5" fill="#5a9aff"/>
+            <path d="M-6 -10 L-6 -2 L-2.5 -2 L-2.5 -6 L2.5 -6 L2.5 -2 L6 -2 L6 -10 L2 -13 L-2 -13 Z" fill="#5a9aff" stroke="rgba(255,255,255,.4)" stroke-width=".6"/>
+            <circle cx="0" cy="-8" r="2.5" fill="#0e1220"/>
+        </g>
+        <!-- back lid panel -->
+        <path d="M40 60 L80 44 L120 60 L120 66 L40 66 Z" fill="url(#ghr-lid)" stroke="rgba(90,154,255,.4)" stroke-width="1"/>
+        <!-- box body -->
+        <rect x="40" y="62" width="80" height="40" rx="4" fill="url(#ghr-box)" stroke="rgba(90,154,255,.5)" stroke-width="1.2"/>
+        <!-- blue trim band -->
+        <rect x="40" y="62" width="80" height="6" fill="#1646D2" opacity=".55"/>
+        <rect x="40" y="96" width="80" height="6" rx="3" fill="#1646D2" opacity=".35"/>
+        <!-- handle -->
+        <path d="M64 60 C64 50 96 50 96 60" stroke="#5a9aff" stroke-width="3" fill="none" stroke-linecap="round"/>
+        <!-- latch -->
+        <rect x="74" y="78" width="12" height="9" rx="1.5" fill="#0e1220" stroke="rgba(90,154,255,.5)" stroke-width=".8"/>
+        <rect x="78" y="80" width="4" height="5" rx="1" fill="#5a9aff" opacity=".7"/>
+        <!-- highlight on body -->
+        <rect x="44" y="70" width="34" height="2" rx="1" fill="rgba(255,255,255,.12)"/>
+    </svg>

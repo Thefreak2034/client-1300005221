@@ -1,0 +1,26 @@
+<svg viewBox="0 0 160 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs>
+            <linearGradient id="wf-frame" x1="34" y1="18" x2="126" y2="104" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#243358"/><stop offset="1" stop-color="#141c32"/></linearGradient>
+            <linearGradient id="wf-glass" x1="40" y1="24" x2="120" y2="98" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#1646D2" stop-opacity=".4"/><stop offset="1" stop-color="#0e1220" stop-opacity=".15"/></linearGradient>
+            <radialGradient id="wf-sh" cx="80" cy="108" r="44" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#0F3399" stop-opacity=".35"/><stop offset="1" stop-color="#0F3399" stop-opacity="0"/></radialGradient>
+        </defs>
+        <ellipse cx="80" cy="108" rx="46" ry="5" fill="url(#wf-sh)"/>
+        <!-- outer frame -->
+        <rect x="34" y="18" width="92" height="86" rx="3" fill="url(#wf-frame)" stroke="rgba(90,154,255,.5)" stroke-width="1.4"/>
+        <!-- glass pane -->
+        <rect x="42" y="26" width="76" height="70" rx="1.5" fill="url(#wf-glass)" stroke="rgba(90,154,255,.4)" stroke-width=".8"/>
+        <!-- flyscreen mesh (fine grid) over left portion -->
+        <g stroke="rgba(90,154,255,.45)" stroke-width=".5">
+            <path d="M46 30 L46 92"/><path d="M52 30 L52 92"/><path d="M58 30 L58 92"/><path d="M64 30 L64 92"/><path d="M70 30 L70 92"/><path d="M76 30 L76 92"/>
+            <path d="M44 34 L78 34"/><path d="M44 40 L78 40"/><path d="M44 46 L78 46"/><path d="M44 52 L78 52"/><path d="M44 58 L78 58"/><path d="M44 64 L78 64"/><path d="M44 70 L78 70"/><path d="M44 76 L78 76"/><path d="M44 82 L78 82"/><path d="M44 88 L78 88"/>
+        </g>
+        <!-- glass reflection highlight (over clear right side) -->
+        <path d="M92 30 L112 56 M100 30 L118 50" stroke="rgba(255,255,255,.18)" stroke-width="3" stroke-linecap="round"/>
+        <!-- mid mullion divider -->
+        <rect x="78" y="26" width="3" height="70" fill="#1a2540" stroke="rgba(90,154,255,.4)" stroke-width=".5"/>
+        <!-- a torn corner of mesh peeling (repair hint) -->
+        <path d="M76 30 L70 36 L76 38 Z" fill="#0e1220" stroke="rgba(90,154,255,.5)" stroke-width=".7"/>
+    </svg>

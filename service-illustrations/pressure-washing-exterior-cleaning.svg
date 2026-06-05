@@ -1,0 +1,40 @@
+<svg viewBox="0 0 160 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+ <defs>
+  <linearGradient id="pwk3-body" x1="34" y1="22" x2="70" y2="104" gradientUnits="userSpaceOnUse"><stop stop-color="#243358"/><stop offset="1" stop-color="#101a30"/></linearGradient>
+  <linearGradient id="pwk3-gun" x1="84" y1="56" x2="104" y2="74" gradientUnits="userSpaceOnUse"><stop stop-color="#2c3e6e"/><stop offset="1" stop-color="#16213c"/></linearGradient>
+  <linearGradient id="pwk3-lance" x1="100" y1="58" x2="122" y2="90" gradientUnits="userSpaceOnUse"><stop stop-color="#3a4f86"/><stop offset="1" stop-color="#1c2a48"/></linearGradient>
+  <linearGradient id="pwk3-fan" x1="122" y1="94" x2="122" y2="106" gradientUnits="userSpaceOnUse"><stop stop-color="#5a9aff" stop-opacity=".6"/><stop offset="1" stop-color="#1646D2" stop-opacity=".05"/></linearGradient>
+  <radialGradient id="pwk3-clean" cx="124" cy="104" r="24" gradientUnits="userSpaceOnUse"><stop stop-color="#5a9aff" stop-opacity=".4"/><stop offset="1" stop-color="#5a9aff" stop-opacity="0"/></radialGradient>
+  <radialGradient id="pwk3-sh" cx="84" cy="112" r="62" gradientUnits="userSpaceOnUse"><stop stop-color="#0F3399" stop-opacity=".3"/><stop offset="1" stop-color="#0F3399" stop-opacity="0"/></radialGradient>
+ </defs>
+ <ellipse cx="82" cy="112" rx="64" ry="5" fill="url(#pwk3-sh)"/>
+ <!-- paving being cleaned -->
+ <path d="M106 105 L150 105 L150 111 L106 111 Z" fill="#141c32" stroke="rgba(90,154,255,.3)" stroke-width=".8"/>
+ <path d="M114 98 L150 98 L150 105 L114 105 Z" fill="#0e1220" stroke="rgba(90,154,255,.3)" stroke-width=".8"/>
+ <ellipse cx="124" cy="100" rx="22" ry="4.5" fill="url(#pwk3-clean)"/>
+ <!-- worker -->
+ <path d="M50 70 L34 102 L41 104 L57 74 Z" fill="url(#pwk3-body)"/>
+ <path d="M56 72 L72 99 L65 102 L49 76 Z" fill="url(#pwk3-body)"/>
+ <path d="M40 40 L54 37 L60 72 L46 75 Z" fill="url(#pwk3-body)" stroke="rgba(90,154,255,.35)" stroke-width=".8"/>
+ <circle cx="44" cy="30" r="8.4" fill="#243358" stroke="rgba(90,154,255,.4)" stroke-width=".9"/>
+ <path d="M34.5 28 a9.5 9.5 0 0 1 19 0 Z" fill="#1646D2"/>
+ <rect x="51" y="26.5" width="6" height="3" rx="1.2" fill="#1646D2"/>
+ <ellipse cx="44" cy="20.5" rx="3" ry="1.4" fill="#5a9aff" opacity=".7"/>
+ <path d="M48 46 L84 60 L80 68 L44 55 Z" fill="url(#pwk3-body)" stroke="rgba(90,154,255,.3)" stroke-width=".7"/>
+ <!-- trigger gun in hands -->
+ <rect x="80" y="56" width="22" height="11" rx="3.5" fill="url(#pwk3-gun)" stroke="rgba(90,154,255,.5)" stroke-width="1"/>
+ <rect x="84" y="58.5" width="11" height="2" rx="1" fill="rgba(255,255,255,.16)"/>
+ <path d="M84 67 L80 80 a3 3 0 0 0 5.7 1.3 L89 69 Z" fill="url(#pwk3-gun)" stroke="rgba(90,154,255,.4)" stroke-width=".8"/>
+ <path d="M92 67 C92 73 88 74 86 77" stroke="#5a9aff" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+ <circle cx="84" cy="61" r="4.6" fill="#243358" stroke="rgba(90,154,255,.45)" stroke-width=".9"/>
+ <!-- ===== LANCE as a metallic round tube ===== -->
+ <rect x="99" y="56.5" width="5" height="7" rx="1.5" transform="rotate(36 101 60)" fill="#2c3e6e" stroke="rgba(90,154,255,.5)" stroke-width=".8"/>  <!-- coupling nut -->
+ <path d="M101 60 L122 90" stroke="url(#pwk3-lance)" stroke-width="5.4" stroke-linecap="round"/>
+ <path d="M101 60 L122 90" stroke="rgba(255,255,255,.14)" stroke-width="5.4" stroke-linecap="round"/>
+ <path d="M100.4 60.6 L121.4 90.6" stroke="rgba(150,190,255,.75)" stroke-width="1.5" stroke-linecap="round"/>  <!-- sheen highlight -->
+ <ellipse cx="122" cy="90" rx="3.4" ry="2.6" transform="rotate(36 122 90)" fill="#1646D2" stroke="rgba(255,255,255,.4)" stroke-width=".7"/> <!-- nozzle -->
+ <!-- spray fan -->
+ <path d="M120 93 L108 105 L140 105 L125 93 Z" fill="url(#pwk3-fan)"/>
+ <g stroke="rgba(255,255,255,.35)" stroke-width=".8" stroke-linecap="round"><path d="M121 95 L111 104.5"/><path d="M123 95 L123 104.5"/><path d="M125 95 L135 104.5"/></g>
+ <circle cx="110" cy="104" r="1.3" fill="#5a9aff" opacity=".7"/><circle cx="140" cy="103" r="1.2" fill="#5a9aff" opacity=".6"/>
+</svg>

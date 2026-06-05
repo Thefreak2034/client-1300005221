@@ -1,0 +1,34 @@
+<svg viewBox="0 0 160 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs>
+            <linearGradient id="fp-panel" x1="20" y1="40" x2="120" y2="100" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#243358"/><stop offset="1" stop-color="#141c32"/></linearGradient>
+            <linearGradient id="fp-cab" x1="80" y1="40" x2="130" y2="100" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#1a2540"/><stop offset="1" stop-color="#0e1220"/></linearGradient>
+            <radialGradient id="fp-sh" cx="80" cy="104" r="50" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#0F3399" stop-opacity=".4"/><stop offset="1" stop-color="#0F3399" stop-opacity="0"/></radialGradient>
+        </defs>
+        <ellipse cx="80" cy="104" rx="52" ry="6" fill="url(#fp-sh)"/>
+        <!-- flat panels stacked (leaning) -->
+        <g transform="translate(20,30) rotate(-6)">
+            <rect x="0" y="0" width="46" height="64" rx="2" fill="url(#fp-panel)" stroke="rgba(90,154,255,.45)" stroke-width="1"/>
+            <!-- pre-drilled holes -->
+            <circle cx="8" cy="8" r="1.5" fill="#0e1220"/><circle cx="38" cy="8" r="1.5" fill="#0e1220"/>
+            <circle cx="8" cy="56" r="1.5" fill="#0e1220"/><circle cx="38" cy="56" r="1.5" fill="#0e1220"/>
+            <circle cx="23" cy="32" r="1.5" fill="#0e1220"/>
+            <rect x="4" y="3" width="38" height="2" rx="1" fill="rgba(255,255,255,.1)"/>
+        </g>
+        <!-- partly-assembled cabinet corner -->
+        <g transform="translate(78,34)">
+            <path d="M0 12 L40 0 L40 48 L0 60 Z" fill="url(#fp-cab)" stroke="rgba(90,154,255,.5)" stroke-width="1.1"/>
+            <path d="M0 12 L0 60 L18 66 L18 18 Z" fill="#0e1220" stroke="rgba(90,154,255,.45)" stroke-width="1"/>
+            <path d="M0 12 L18 18 L40 0" fill="none" stroke="rgba(90,154,255,.4)" stroke-width=".9"/>
+            <circle cx="9" cy="40" r="1.4" fill="#5a9aff"/>
+            <circle cx="30" cy="22" r="1.4" fill="#5a9aff"/>
+        </g>
+        <!-- allen key (L-shaped) -->
+        <g transform="translate(58,86)" stroke="#5a9aff" stroke-width="3.4" stroke-linecap="round" fill="none">
+            <path d="M0 0 L24 0"/>
+            <path d="M24 0 L24 -16"/>
+        </g>
+        <circle cx="58" cy="86" r="1.2" fill="#1646D2"/>
+    </svg>

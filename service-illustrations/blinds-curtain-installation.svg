@@ -1,0 +1,31 @@
+<svg viewBox="0 0 160 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs>
+            <linearGradient id="bl-frame" x1="34" y1="16" x2="126" y2="104" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#243358"/><stop offset="1" stop-color="#141c32"/></linearGradient>
+            <linearGradient id="bl-glass" x1="42" y1="22" x2="118" y2="98" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#1646D2" stop-opacity=".35"/><stop offset="1" stop-color="#0e1220" stop-opacity=".1"/></linearGradient>
+            <linearGradient id="bl-blind" x1="80" y1="22" x2="80" y2="64" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#5a9aff"/><stop offset="1" stop-color="#1646D2"/></linearGradient>
+            <radialGradient id="bl-sh" cx="80" cy="108" r="44" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#0F3399" stop-opacity=".35"/><stop offset="1" stop-color="#0F3399" stop-opacity="0"/></radialGradient>
+        </defs>
+        <ellipse cx="80" cy="108" rx="46" ry="5" fill="url(#bl-sh)"/>
+        <!-- frame -->
+        <rect x="34" y="16" width="92" height="88" rx="3" fill="url(#bl-frame)" stroke="rgba(90,154,255,.5)" stroke-width="1.4"/>
+        <!-- glass -->
+        <rect x="42" y="24" width="76" height="72" rx="1.5" fill="url(#bl-glass)" stroke="rgba(90,154,255,.35)" stroke-width=".7"/>
+        <!-- glass reflection -->
+        <path d="M52 30 L70 60 M64 30 L82 54" stroke="rgba(255,255,255,.14)" stroke-width="2.5" stroke-linecap="round"/>
+        <!-- headrail of blind -->
+        <rect x="40" y="22" width="80" height="7" rx="2" fill="#1a2540" stroke="rgba(90,154,255,.5)" stroke-width=".9"/>
+        <!-- roller blind, half down (with slat lines) -->
+        <rect x="44" y="29" width="72" height="34" rx="1" fill="url(#bl-blind)" stroke="rgba(255,255,255,.3)" stroke-width=".7"/>
+        <g stroke="rgba(255,255,255,.18)" stroke-width=".8">
+            <path d="M44 36 L116 36"/><path d="M44 43 L116 43"/><path d="M44 50 L116 50"/><path d="M44 57 L116 57"/>
+        </g>
+        <!-- bottom bar of blind -->
+        <rect x="44" y="62" width="72" height="4" rx="1.5" fill="#0e1220" stroke="rgba(90,154,255,.5)" stroke-width=".6"/>
+        <!-- pull cord on right -->
+        <path d="M120 24 C123 40 121 60 120 76" stroke="rgba(255,255,255,.5)" stroke-width="1" fill="none"/>
+        <circle cx="120" cy="78" r="2.2" fill="#5a9aff" stroke="rgba(255,255,255,.4)" stroke-width=".5"/>
+    </svg>

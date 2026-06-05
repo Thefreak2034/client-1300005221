@@ -1,0 +1,30 @@
+<svg viewBox="0 0 160 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs>
+            <linearGradient id="ti-tile" x1="30" y1="24" x2="120" y2="96" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#1f2c4c"/><stop offset="1" stop-color="#101729"/></linearGradient>
+            <linearGradient id="ti-float" x1="92" y1="70" x2="132" y2="50" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#5a9aff"/><stop offset="1" stop-color="#1646D2"/></linearGradient>
+            <radialGradient id="ti-sh" cx="80" cy="106" r="46" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#0F3399" stop-opacity=".35"/><stop offset="1" stop-color="#0F3399" stop-opacity="0"/></radialGradient>
+        </defs>
+        <ellipse cx="80" cy="106" rx="48" ry="5" fill="url(#ti-sh)"/>
+        <!-- tile grid backdrop -->
+        <rect x="26" y="22" width="92" height="80" rx="3" fill="#0e1220" stroke="rgba(90,154,255,.35)" stroke-width="1"/>
+        <!-- individual tiles (gap = grout line) -->
+        <g fill="url(#ti-tile)" stroke="rgba(90,154,255,.4)" stroke-width=".7">
+            <rect x="30" y="26" width="26" height="22" rx="1.5"/><rect x="60" y="26" width="26" height="22" rx="1.5"/><rect x="90" y="26" width="24" height="22" rx="1.5"/>
+            <rect x="30" y="52" width="26" height="22" rx="1.5"/><rect x="60" y="52" width="26" height="22" rx="1.5"/><rect x="90" y="52" width="24" height="22" rx="1.5"/>
+            <rect x="30" y="78" width="26" height="20" rx="1.5"/><rect x="60" y="78" width="26" height="20" rx="1.5"/><rect x="90" y="78" width="24" height="20" rx="1.5"/>
+        </g>
+        <!-- tile sheen highlights -->
+        <path d="M34 30 L52 30 M64 56 L82 56" stroke="rgba(255,255,255,.12)" stroke-width="1" stroke-linecap="round"/>
+        <!-- fresh grout being worked into a joint (brighter line) -->
+        <path d="M58 52 L58 74" stroke="#5a9aff" stroke-width="2" opacity=".8" stroke-linecap="round"/>
+        <!-- grout float, diagonal, over the tiles -->
+        <g transform="translate(0,0)">
+            <path d="M88 66 L126 50 L130 60 L92 76 Z" fill="url(#ti-float)" stroke="rgba(255,255,255,.4)" stroke-width=".8"/>
+            <path d="M93 70 L124 56" stroke="rgba(255,255,255,.4)" stroke-width=".9"/>
+            <rect x="104" y="42" width="6" height="9" rx="1" fill="#0e1220" stroke="rgba(90,154,255,.5)" stroke-width=".7"/>
+            <path d="M99 36 C99 32 117 32 117 36 C117 41 112 43 108 43 C103 43 99 41 99 36 Z" fill="#243358" stroke="rgba(90,154,255,.5)" stroke-width=".9"/>
+        </g>
+    </svg>

@@ -1,0 +1,36 @@
+<svg viewBox="0 0 160 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs>
+            <linearGradient id="lm-body" x1="40" y1="56" x2="110" y2="92" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#1a2540"/><stop offset="1" stop-color="#0e1220"/></linearGradient>
+            <linearGradient id="lm-grass" x1="20" y1="92" x2="20" y2="108" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#1646D2" stop-opacity=".5"/><stop offset="1" stop-color="#0F3399" stop-opacity=".1"/></linearGradient>
+            <radialGradient id="lm-sh" cx="80" cy="104" r="50" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#0F3399" stop-opacity=".35"/><stop offset="1" stop-color="#0F3399" stop-opacity="0"/></radialGradient>
+        </defs>
+        <ellipse cx="80" cy="104" rx="52" ry="5" fill="url(#lm-sh)"/>
+        <!-- cut grass strip -->
+        <rect x="18" y="92" width="124" height="16" rx="2" fill="url(#lm-grass)"/>
+        <!-- grass blades (uncut, in front of mower) -->
+        <g stroke="#5a9aff" stroke-width="1.6" stroke-linecap="round" opacity=".8">
+            <path d="M28 100 C26 94 30 92 29 86"/><path d="M34 100 C36 94 32 92 34 87"/>
+            <path d="M40 100 C38 95 42 93 41 88"/>
+        </g>
+        <!-- mower deck body -->
+        <path d="M48 72 L104 72 L108 90 L44 90 Z" fill="url(#lm-body)" stroke="rgba(90,154,255,.5)" stroke-width="1.2"/>
+        <!-- top cover / engine hump -->
+        <path d="M58 58 L92 58 C98 58 100 64 100 72 L52 72 C52 64 54 58 58 58 Z" fill="#243358" stroke="rgba(90,154,255,.5)" stroke-width="1"/>
+        <rect x="66" y="60" width="20" height="5" rx="1.5" fill="#5a9aff" opacity=".7"/>
+        <!-- blue trim band -->
+        <rect x="46" y="84" width="60" height="4" rx="2" fill="#1646D2" opacity=".5"/>
+        <!-- wheels -->
+        <circle cx="56" cy="92" r="9" fill="#0e1220" stroke="rgba(90,154,255,.5)" stroke-width="1.4"/>
+        <circle cx="56" cy="92" r="3.2" fill="#5a9aff" opacity=".7"/>
+        <circle cx="98" cy="92" r="9" fill="#0e1220" stroke="rgba(90,154,255,.5)" stroke-width="1.4"/>
+        <circle cx="98" cy="92" r="3.2" fill="#5a9aff" opacity=".7"/>
+        <!-- handle bar -->
+        <path d="M100 66 L132 28" stroke="#5a9aff" stroke-width="3" stroke-linecap="round"/>
+        <path d="M104 70 L136 32" stroke="#5a9aff" stroke-width="3" stroke-linecap="round"/>
+        <path d="M126 24 L142 38" stroke="#5a9aff" stroke-width="3" stroke-linecap="round"/>
+        <!-- highlight on deck -->
+        <path d="M54 76 L98 76" stroke="rgba(255,255,255,.1)" stroke-width="1"/>
+    </svg>

@@ -1,0 +1,33 @@
+<svg viewBox="0 0 160 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs>
+            <linearGradient id="pm-frame" x1="46" y1="40" x2="114" y2="100" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#243358"/><stop offset="1" stop-color="#141c32"/></linearGradient>
+            <linearGradient id="pm-glass" x1="54" y1="46" x2="106" y2="94" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#1646D2" stop-opacity=".4"/><stop offset="1" stop-color="#0e1220" stop-opacity=".12"/></linearGradient>
+            <radialGradient id="pm-sh" cx="80" cy="108" r="44" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#0F3399" stop-opacity=".3"/><stop offset="1" stop-color="#0F3399" stop-opacity="0"/></radialGradient>
+        </defs>
+        <ellipse cx="80" cy="108" rx="46" ry="4" fill="url(#pm-sh)"/>
+        <!-- faint wall -->
+        <rect x="22" y="14" width="116" height="92" rx="2" fill="#0e1220" stroke="rgba(90,154,255,.16)" stroke-width=".7"/>
+        <!-- wall hook + hanging wire -->
+        <path d="M80 30 L62 44 M80 30 L98 44" stroke="rgba(255,255,255,.4)" stroke-width=".8"/>
+        <circle cx="80" cy="29" r="1.6" fill="#5a9aff"/>
+        <!-- picture frame -->
+        <rect x="46" y="42" width="68" height="56" rx="2" fill="url(#pm-frame)" stroke="rgba(90,154,255,.55)" stroke-width="1.4"/>
+        <!-- inner mat -->
+        <rect x="52" y="48" width="56" height="44" rx="1" fill="url(#pm-glass)" stroke="rgba(90,154,255,.35)" stroke-width=".7"/>
+        <!-- glass reflection diagonal -->
+        <path d="M58 52 L80 84 M70 50 L96 78" stroke="rgba(255,255,255,.16)" stroke-width="2.4" stroke-linecap="round"/>
+        <!-- frame inner bevel highlight -->
+        <rect x="50" y="46" width="60" height="2" rx="1" fill="rgba(255,255,255,.14)"/>
+        <!-- spirit level resting on top of frame -->
+        <g transform="translate(44,30)">
+            <rect x="0" y="0" width="72" height="9" rx="2" fill="#F59E0B" opacity=".85" stroke="rgba(255,255,255,.4)" stroke-width=".6"/>
+            <rect x="29" y="2" width="14" height="5" rx="2.5" fill="#0e1220"/>
+            <circle cx="36" cy="4.5" r="1.8" fill="#5a9aff"/>
+            <circle cx="36" cy="4.5" r="1.8" fill="none" stroke="rgba(255,255,255,.4)" stroke-width=".4"/>
+            <rect x="8" y="3" width="8" height="2.5" rx="1" fill="rgba(14,18,32,.5)"/>
+            <rect x="56" y="3" width="8" height="2.5" rx="1" fill="rgba(14,18,32,.5)"/>
+        </g>
+    </svg>

@@ -1,0 +1,36 @@
+<svg viewBox="0 0 160 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs>
+            <linearGradient id="sh-shelf" x1="30" y1="40" x2="130" y2="50" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#243358"/><stop offset="1" stop-color="#141c32"/></linearGradient>
+            <radialGradient id="sh-sh" cx="80" cy="108" r="48" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#0F3399" stop-opacity=".3"/><stop offset="1" stop-color="#0F3399" stop-opacity="0"/></radialGradient>
+        </defs>
+        <ellipse cx="80" cy="108" rx="50" ry="4" fill="url(#sh-sh)"/>
+        <!-- faint wall -->
+        <rect x="20" y="14" width="120" height="92" rx="2" fill="#0e1220" stroke="rgba(90,154,255,.18)" stroke-width=".8"/>
+        <path d="M20 60 L140 60" stroke="rgba(90,154,255,.1)" stroke-width=".6"/>
+        <!-- top shelf -->
+        <rect x="30" y="40" width="100" height="8" rx="1.5" fill="url(#sh-shelf)" stroke="rgba(90,154,255,.5)" stroke-width="1"/>
+        <rect x="32" y="41" width="50" height="2" rx="1" fill="rgba(255,255,255,.14)"/>
+        <!-- top shelf brackets -->
+        <path d="M40 48 L40 56 L48 48 Z" fill="#1a2540" stroke="rgba(90,154,255,.4)" stroke-width=".7"/>
+        <path d="M120 48 L120 56 L112 48 Z" fill="#1a2540" stroke="rgba(90,154,255,.4)" stroke-width=".7"/>
+        <!-- bottom shelf -->
+        <rect x="30" y="78" width="100" height="8" rx="1.5" fill="url(#sh-shelf)" stroke="rgba(90,154,255,.5)" stroke-width="1"/>
+        <rect x="32" y="79" width="50" height="2" rx="1" fill="rgba(255,255,255,.14)"/>
+        <path d="M40 86 L40 94 L48 86 Z" fill="#1a2540" stroke="rgba(90,154,255,.4)" stroke-width=".7"/>
+        <path d="M120 86 L120 94 L112 86 Z" fill="#1a2540" stroke="rgba(90,154,255,.4)" stroke-width=".7"/>
+        <!-- items on top shelf: books leaning -->
+        <g>
+            <rect x="44" y="22" width="6" height="18" rx="1" fill="#1646D2" stroke="rgba(255,255,255,.3)" stroke-width=".5"/>
+            <rect x="51" y="20" width="6" height="20" rx="1" fill="#5a9aff" stroke="rgba(255,255,255,.3)" stroke-width=".5"/>
+            <g transform="translate(60,40) rotate(-12)"><rect x="0" y="-22" width="6" height="22" rx="1" fill="#1646D2" stroke="rgba(255,255,255,.3)" stroke-width=".5"/></g>
+            <!-- a box -->
+            <rect x="100" y="24" width="20" height="16" rx="1.5" fill="#5a9aff" opacity=".85" stroke="rgba(255,255,255,.3)" stroke-width=".6"/>
+            <path d="M100 30 L120 30 M110 24 L110 40" stroke="rgba(14,18,32,.5)" stroke-width=".7"/>
+        </g>
+        <!-- items on bottom shelf: box -->
+        <rect x="48" y="62" width="22" height="16" rx="1.5" fill="#1646D2" opacity=".8" stroke="rgba(255,255,255,.3)" stroke-width=".6"/>
+        <path d="M48 68 L70 68 M59 62 L59 78" stroke="rgba(14,18,32,.5)" stroke-width=".7"/>
+        <circle cx="100" cy="71" r="6" fill="none" stroke="#5a9aff" stroke-width="2" opacity=".7"/>
+    </svg>
